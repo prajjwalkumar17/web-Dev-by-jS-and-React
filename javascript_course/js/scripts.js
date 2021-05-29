@@ -47,27 +47,71 @@
 //     <button id="hover-me">Move the cursor over here</button>
 //     <button id="leave-me">Move the cursor out of here</button>
 
-document.getElementById("click-me").onclick=function(){
-        alert("You fucking clicked me!!!");
-}
-// document.getElementById("hover-me").onmouseover=function(){
-//         alert("You fucking visited me!!!");
+// document.getElementById("click-me").onclick=function(){
+//         alert("You fucking clicked me!!!");
 // }
-function hover(){
-        alert("aleart by html tag");
-}
+// // document.getElementById("hover-me").onmouseover=function(){
+// //         alert("You fucking visited me!!!");
+// // }
+// function hover(){
+//         alert("aleart by html tag");
+// }
 
-document.getElementById("leave-me").onmouseout=function(){
-        alert("You fucking left me!!!");
-}
+// document.getElementById("leave-me").onmouseout=function(){
+//         alert("You fucking left me!!!");
+// }
 
-document.onkeydown=function(event){
-//console.log(event.key);
-if(event.key=="a"){
-        alert("A presss kia n abhi");
+// document.onkeydown=function(event){
+// //console.log(event.key);
+// if(event.key=="a"){
+//         alert("A presss kia n abhi");
 
-}
-}
+// }
+// }
+
+
+// var elements = document.getElementsByClassName("example");
+// for(var a =0;a<elements.length;a++){
+//         elements[a].style.color="green";
+//         elements[a].style.fontWeight ="bold";
+
+// }
+
+
+var employees = [
+        
+        {
+            'name': 'Charles Silva',
+            'age': 45,
+            'children': ['Andrew Silva', 'Maria Silva']
+            
+        },
+
+        {
+            'name': 'Elizabeth Green',
+            'age': 32,
+            'children': ['Peter Green']
+            
+        },
+
+        {
+            'name': 'George Banks',
+            'age': 39,
+            'children': ['Philipp Banks', 'Rose Banks', 'Tara Banks']
+            
+        }
+    
+    ]; 
+
+
+    for(var a =0;a<employees.length;a++){
+            for(var b=0;b<employees.length;b++){
+
+            }
+
+    }
+
+
 
 
 
