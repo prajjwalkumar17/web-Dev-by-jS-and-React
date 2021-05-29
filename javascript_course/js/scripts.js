@@ -103,12 +103,14 @@ var employees = [
     
     ]; 
 
-
+    document.getElementById("children").innerHTML =""
     for(var a =0;a<employees.length;a++){
-            for(var b=0;b<employees.length;b++){
+        var childList=employees[a].children;
 
-            }
-
+        for(var b=0;b<childList.length;b++){
+            var child=childList[b];
+            document.getElementById("children").innerHTML += "<li>" + child + "</li>";
+        }
     }
 
 
