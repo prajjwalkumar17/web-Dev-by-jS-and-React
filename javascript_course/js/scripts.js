@@ -1,4 +1,3 @@
-This is one line comment
 
 
         console.log("Statement 1");
