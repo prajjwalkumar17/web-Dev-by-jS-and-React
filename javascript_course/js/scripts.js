@@ -78,40 +78,40 @@
 // }
 
 
-var employees = [
+// var employees = [
         
-        {
-            'name': 'Charles Silva',
-            'age': 45,
-            'children': ['Andrew Silva', 'Maria Silva']
+//         {
+//             'name': 'Charles Silva',
+//             'age': 45,
+//             'children': ['Andrew Silva', 'Maria Silva']
             
-        },
+//         },
 
-        {
-            'name': 'Elizabeth Green',
-            'age': 32,
-            'children': ['Peter Green']
+//         {
+//             'name': 'Elizabeth Green',
+//             'age': 32,
+//             'children': ['Peter Green']
             
-        },
+//         },
 
-        {
-            'name': 'George Banks',
-            'age': 39,
-            'children': ['Philipp Banks', 'Rose Banks', 'Tara Banks']
+//         {
+//             'name': 'George Banks',
+//             'age': 39,
+//             'children': ['Philipp Banks', 'Rose Banks', 'Tara Banks']
             
-        }
+//         }
     
-    ]; 
+//     ]; 
 
-    document.getElementById("children").innerHTML =""
-    for(var a =0;a<employees.length;a++){
-        var childList=employees[a].children;
+//     document.getElementById("children").innerHTML =""
+//     for(var a =0;a<employees.length;a++){
+//         var childList=employees[a].children;
 
-        for(var b=0;b<childList.length;b++){
-            var child=childList[b];
-            document.getElementById("children").innerHTML += "<li>" + child + "</li>";
-        }
-    }
+//         for(var b=0;b<childList.length;b++){
+//             var child=childList[b];
+//             document.getElementById("children").innerHTML += "<li>" + child + "</li>";
+//         }
+//     }
 
 
 
