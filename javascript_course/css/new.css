@@ -1,0 +1,155 @@
+/** @format */
+
+h1 {
+  color: darkmagenta;
+  text-align: center;
+  border: 4px dotted black;
+}
+
+/* Body
+
+font-family: Arial, sans-serif;
+
+
+
+Menu Items:
+
+font-size: 13px;
+
+color: rgba(0, 0, 0, 0.87)
+
+
+
+Profile Pic
+
+width: 32px;
+
+height: 32px;
+
+
+
+Search Box
+
+width: 582px
+
+color: #222
+
+border: 1px solid #dfe1e5;
+
+font-size: 13px
+
+padding: 14px
+
+border-radius: 24px
+
+
+
+Search Box: OnHover and OnFocus
+
+box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+
+border-color: rgba(223,225,229,0);
+
+
+
+Button
+
+background color #f2f2f2
+
+color: #5F6368;
+
+font-size: 14px;
+
+height: 36px;
+
+padding: 0 16px;
+
+background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+
+border: 1px solid transparent;
+
+box-shadow: 0 1px 1px rgba(0,0,0,0);
+
+color: #222;
+
+
+
+Button: On-Hover
+
+background-image:linear-gradient(top,#f8f8f8,#f1f1f1);
+
+border: 1px solid #c6c6c6;
+
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+
+color: #222;
+
+
+
+Dropdown Application Card:
+
+width: 285px;
+
+padding: 28px;
+
+border: 1px solid #ccc;
+
+box-shadow: 0 2px 10px rgba(0,0,0,.2);
+
+
+
+App Item
+
+display: inline-block
+
+width: 84px;
+
+
+
+App Item: On-Hover
+
+border: 1px solid rgba(0, 0, 0, 0.2);
+
+
+
+App Item Image:
+
+width: 50px;
+
+height: 50px;
+
+
+
+App Item Label:
+
+color: rgba(0,0,0,0.87)
+
+
+
+Images:
+
+Google Center Logo: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
+
+Voice Search Icon: https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png
+
+App - Google Search: http://pluspng.com/img-png/google-logo-png-open-2000.png
+
+App - Maps: http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png
+
+App - Drive: https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png
+
+App - Calendar: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Google-calendar.svg/1024px-Google-calendar.svg.png
+
+App - Photos: https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png
+
+App - Keep: https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png
+
+
+
+App Menu Icon:
+
+Use Google Material Icons:
+
+Add this in HTML head element: <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+Use this to generate icon: <i id="dropdown-menu" class="material-icons">apps</i> */
